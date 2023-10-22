@@ -1,0 +1,404 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;500;600;700&display=swap');
+/*===================Common CSS Start======================*/
+*{
+	box-sizing: border-box;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.flex_row{
+	display: flex;
+}
+.container {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.navigation {
+	padding: 50px 0 100px;
+}
+
+.navigation ul {
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	max-width: 600px;
+	list-style: none;
+}
+
+.navigation ul li {
+	flex: auto;
+}
+
+.navigation ul li a {
+	color: #FFF;
+	font-family: Cabin;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 2.3px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+}
+
+.heder_wraper {
+	background: url("../images/main_banner_bg.png") no-repeat scroll center top / 100% 100%;
+	padding-bottom: 230px;
+}
+.logo_text h1 {
+	color: #FFF;
+	font-family: Black Ops One;
+	font-size: 115px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 6.4px;
+	margin: 0;
+}
+.logo_text .caption_text {
+	color: #FFF;
+	font-family: Cabin;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin: 0;
+}
+.banner_text p {
+	color: #FFF;
+	font-family: Josefin Sans;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
+.button_learn_more a {
+	border-radius: 41px;
+	background: #585B61;
+	text-decoration: none;
+	padding: 15px 30px;
+	color: #FFF;
+	text-align: center;
+	font-family: Cabin;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: -0.48px;
+}
+.banner_content.flex_row {
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.banner_content .banner_text {
+	padding: 50px 0 135px;
+}
+
+section.about_us {
+	background: url("../images/about_us_bg.png") no-repeat scroll center top / 100% 100%;
+	padding: 70px 0 170px;
+}
+
+.about_us .title h2 {
+	color: #000;
+	text-align: center;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: -0.96px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+.about_us .caption_text p {
+	color: #000;
+	text-align: center;
+	font-family: Plus Jakarta Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-top: 0;
+}
+
+.about_us .flex_row {
+	gap: 30px;
+}
+.about_us .flex_row .col-item .desc_text p {
+	margin-top: 0;
+	color: #000;
+	font-family: Plus Jakarta Sans;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 137%;
+}
+
+.gap_30{
+	gap: 30px;
+}
+.about_us .flex_row {
+	padding-top: 20px;
+}
+.why_vex {
+	padding: 30px 0 50px;
+}
+.why_vex .flex_row {
+	align-items: center;
+}
+.why_vex .title h3 {
+	color: #000;
+	text-align: left;
+	font-family: Plus Jakarta Sans;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: -0.96px;
+	margin-bottom: 15px;
+}
+
+.why_vex .desc_text p {
+	margin-top: 0;
+	color: #000;
+	font-family: Plus Jakarta Sans;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 137%;
+}
+.why_vex .desc_text p a {
+	color: #000;
+}
+
+
+.sponser_content h3 {
+	color: #FFF;
+	text-align: center;
+	font-family: Plus Jakarta Sans;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 500;
+	letter-spacing: -0.96px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.sponser {
+	background: #575757;
+	padding: 80px 0 80px;
+}
+.sponser .title {
+	padding-bottom: 60px;
+}
+.sponser_content .image img {
+	margin: 0 auto;
+	display: block;
+}
+
+.our_robot .title h3 {
+	color: #FFF;
+	font-family: Black Ops One;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 197.023%;
+	letter-spacing: 4px;
+}
+
+.our_robot {
+	background-color: #000;
+	padding: 30px 0px 140px;
+}
+.our_robot .flex_row {
+	justify-content: center;
+	padding-top: 30px;
+}
+.our_robot .title h3 {
+	color: #FFF;
+	font-family: Black Ops One;
+	font-size: 80px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 197.023%;
+	letter-spacing: 4px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.email a {
+	color: rgba(26, 32, 44, 0.78);
+	font-family: Plus Jakarta Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%;
+	letter-spacing: -0.32px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.copyright {
+	border-top: 1px solid rgb(72, 98, 132, 0.16);
+	padding: 27.5px 0;
+}
+
+.copyright p {
+	color: var(--Black, #1A202C);
+	font-family: Plus Jakarta Sans;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 150%;
+	letter-spacing: -0.32p;
+	text-align: center;
+	margin: 0;
+}
+.footer_content .email {
+	padding: 20px 0;
+}
+
+
+
+
+/*================Start Responsive css====================*/
+
+@media screen and (max-width: 1200px) {
+img {
+	max-width: 100%;
+}
+.flex_row .col-item{
+	flex: 0 0 calc(50% - 50px);
+}
+section{
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+.heder_wraper {
+	padding-bottom: 150px;
+}
+.banner_content.flex_row {
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column-reverse;
+	padding-left: 30px;
+	padding-right: 30px;
+	gap: 50px;
+}
+.banner_content .banner_text {
+	padding: 0px 0 40px;
+}
+.logo_text h1 {
+	font-size: 75px;
+}
+
+.our_robot .flex_row {
+	justify-content: center;
+	padding-top: 30px;
+	flex-wrap: nowrap;
+	max-width: max-content;
+	margin: 0 auto;
+}
+.our_robot .title h3 {
+	line-height: normal;
+}
+.heder_wraper {
+	background: url("../images/main_banner_bg.png") no-repeat scroll center top / cover;
+}
+
+}
+
+@media screen and (max-width: 992px) {
+	.flex_row{
+		flex-wrap: wrap;
+	}
+.flex_row .col-item {
+	flex: 0 0 calc(100% - 0px);
+}
+.our_robot .flex_row .col-item {
+	flex: 0 0 calc(50% - 30px);
+}
+.our_robot .flex_row a {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.copyright {
+	padding: 27.5px 30px;
+}
+.footer_content .email {
+	padding: 20px 30px;
+}
+.about_us .flex_row img {
+	margin: 0 auto;
+	display: block;
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+	.logo_text h1 {
+	font-size: 65px;
+}
+.banner_text p {
+	font-size: 30px;
+}
+.banner_text p br {
+	display: none;
+}
+.our_robot .title h3 {
+	font-size: 65px;
+}
+.copyright p {
+	font-size: 14px;
+}
+.our_robot {
+	padding: 50px 0px 50px;
+}
+.sponser {
+	padding: 30px 0 50px;
+}
+
+}
+
+
+@media screen and (max-width: 575px) {
+.our_robot .flex_row .col-item {
+	flex: 0 0 calc(100% - 0px);
+}
+.our_robot .flex_row {
+	flex-wrap: wrap;
+}
+.logo_text h1 {
+	font-size: 45px;
+}
+.our_robot .title h3 {
+	font-size: 45px;
+}
+
+.navigation {
+	padding: 50px 30px 70px;
+}
+.navigation ul li a {
+	font-size: 15px;
+}
+.banner_content.flex_row .col-item.right .logo {
+	max-width: 70%;
+	margin: 0 auto;
+}
+
+	}
+
+
+	/*================End Responsive css====================*/
